@@ -5,7 +5,7 @@ from urllib.request import urlopen
 db_config = {
     'host': 'mydatabase.com',
     'user': 'admin',
-    'password': 'secret123456'
+    'password': 'secret123456789'
 }
 
 def get_user_input():
@@ -34,3 +34,5 @@ if __name__ == '__main__':
     data = get_data()
     save_to_db(data)
     send_email('admin@example.com', 'User Input', user_input)
+
+# This is a test for AppScan CodeSweep
